@@ -1,1 +1,4 @@
-t</h1>);
+/node_modules/
+/.idea/
+dist/
+/server/node_modules/
