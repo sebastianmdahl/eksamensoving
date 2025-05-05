@@ -7,5 +7,5 @@ const app = new Hono();
 app.use("*", serveStatic({ root: "../dist" }));
 
 // Heroku provides the port that the server should start on as an environment variable
-const port = process.env.PORT ? parseInt(process.env.PORT) : 3001;
+const port = process.env.PORT ? parseInt(process.env.PORT) : 3000;
 serve({ fetch: app.fetch, port });
